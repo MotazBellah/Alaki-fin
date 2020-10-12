@@ -34,3 +34,35 @@ li a {
 /* li a:hover {
   background-color: #111;
 } */
+
+.header-content {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.you {
+    float: left;
+    color: white;
+    background-color: orange;
+}
+
+.where {
+    float: right;
+    color: gray;
+    background-color: white;
+}
+
+.header-content a {
+    width: 200px;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    border-color: #000
+}
+
+.header-content p {
+    color: white
+}
