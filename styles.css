@@ -83,3 +83,56 @@ li a {
     width: 200px;
     height: 150px;
 }
+
+/* .wrapper {
+
+    width: 80%;
+    margin: 0 auto;
+    background-color: orange;
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    position: relative;
+}
+
+.wrapper-info {
+    text-align: right;
+}
+
+.wrapper-img img {
+    width: 140px;
+    height: 180px;
+}
+
+.wrapper-img {
+    position: absolute;
+    right: 3rem;
+    top: -2rem;
+} */
+ .upper {
+    width: 70%;
+    margin: 0 auto;
+    background-color: orange;
+    margin-top: 35px;
+
+ }
+
+.upper-info {
+    /* float: left; */
+    padding: 10px;
+    text-align: right;
+}
+
+.upper-img {
+    /* float: right; */
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.upper-img img {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: -12px;
+}
