@@ -155,3 +155,25 @@ li a {
     text-align: center;
     margin-top: 20px;
 }
+
+.low-img  {
+    position: relative;
+}
+.low-img img {
+    width: 85;
+    height: 135px;
+
+}
+
+#facebook {
+  position: relative;
+  z-index: 2;
+  top: -20px;
+}
+
+#insta {
+  position: relative;
+  z-index: 1;
+  top: -70px;
+  left: 30px;
+}
