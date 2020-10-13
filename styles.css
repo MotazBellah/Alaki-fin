@@ -120,7 +120,7 @@ li a {
 
 .upper-info {
     /* float: left; */
-    padding: 10px;
+    padding: 16px;
     text-align: right;
 }
 
@@ -136,4 +136,15 @@ li a {
     height: 200px;
     position: absolute;
     top: -12px;
+}
+
+.btn-style {
+    padding: 5px;
+    font-size: 14px;
+    border-style: hidden;
+    border-radius: 25px;
+    width: 200px;
+    color: white;
+    background-color: red;
+    background: linear-gradient(to right, red , #8B0000);
 }
