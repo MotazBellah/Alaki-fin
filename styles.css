@@ -293,4 +293,13 @@ section {
 
 .form-login {
     text-align: right;
+    color: grey;
+}
+
+input[type=text],
+input[type=tel] {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
 }
