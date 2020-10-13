@@ -114,7 +114,8 @@ li a {
     margin: 0 auto;
     background-color: orange;
     margin-top: 35px;
-
+    border-radius: 20px 0px 20px 20px;
+    box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
  }
 
 .upper-info {
