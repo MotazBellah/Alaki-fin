@@ -303,3 +303,12 @@ input[type=tel] {
     border-radius: 5px;
     background-color: #ccc;
 }
+
+.modal-body {
+    text-align: center;
+}
+.modal-body img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
