@@ -2,7 +2,7 @@ html, body {
     height: 100%;
 }
 
-header {
+#header {
     width: 100%;
     background-image: url('images/Background-2.png');
     background-repeat: no-repeat;
@@ -311,4 +311,47 @@ input[type=tel] {
     width: 70px;
     height: 70px;
     margin: 0 auto;
+}
+
+#customer-nav {
+    margin: 0;
+    width: 400px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 0px 0px 38px 0px;
+    box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    display: inline-block;
+
+}
+
+#customer-header {
+    width: 100%;
+}
+#customer-nav img {
+    width: 70px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+
+.select {
+    display: inline-block;
+    
+
+}
+.message {
+    width: 160px;
+    height: 30px;
+    background-color: red;
+    display: inline-block;
+    margin-right: -5px;
+    padding: 2px;
+}
+
+.order {
+    width: 160px;
+    height: 30px;
+    background-color: green;
+    display: inline-block;
+    padding: 2px;
 }
