@@ -320,7 +320,7 @@ input[type=tel] {
     background-color: orange;
     border-radius: 0px 0px 38px 0px;
     box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
-    display: inline-block;
+    float: left;
 
 }
 
@@ -334,24 +334,45 @@ input[type=tel] {
 }
 
 
-.select {
-    display: inline-block;
-    
 
-}
-.message {
-    width: 160px;
-    height: 30px;
+.btn-style-group {
+    padding: 5px;
+    font-size: 14px;
+    border-style: hidden;
+    border-radius: 25px;
+    width: 200px;
+    color: white;
     background-color: red;
-    display: inline-block;
-    margin-right: -5px;
-    padding: 2px;
 }
 
-.order {
-    width: 160px;
-    height: 30px;
-    background-color: green;
-    display: inline-block;
-    padding: 2px;
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.btn-group>.btn:not(:first-child) {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: -20px;
+}
+
+
+#order {
+    background-color: orange;
+}
+
+#message {
+    background-color: white;
+    color: gray;
+
+}
+
+.shadow {
+    border-radius: 20px;
+    box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    float: right;
+    margin-top: 10px;
+    margin-right: 200px;
+
 }
