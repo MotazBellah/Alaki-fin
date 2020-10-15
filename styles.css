@@ -419,7 +419,6 @@ body {
     top: -17%;
     left: -3%;
     box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
-
 }
 
 .icons {
@@ -470,4 +469,95 @@ body {
     display: inline-block;
     padding: 6px 12px;
     cursor: pointer;
+}
+
+.model-customer {
+    background-color: orange;
+}
+
+.order-message>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    z-index: 100;
+
+}
+
+.order-message>.btn:not(:first-child) {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.product-details {
+    border-radius: 25px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: right;
+    padding: 16px;
+    margin-top: 40px;
+    box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+}
+
+.product-msg {
+    background-color: #DCDCDC;
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    padding: 10px;
+}
+
+.logo-msg {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.owner-msg {
+    display: inline-block;
+}
+
+.owner {
+    text-align: right;
+}
+
+.client {
+    text-align: left;
+}
+
+.customer-photo {
+    height: 140px;
+    width: 180px;
+    background-color: gray;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: -3px;
+    box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+}
+
+.send-msg {
+    border-radius: 50px;
+    background-color: white;
+    width: 100%;
+    height: 100;
+    text-align: right;
+    padding: 5px;
+    margin-top: 16px;
+    box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+}
+
+.send-msg input[type=text] {
+    width: 60%;
+    border-radius: 50px;
+    margin-left: 4%;
+}
+
+.send-msg a {
+    color: orange;
 }
