@@ -321,7 +321,13 @@ input[type=tel] {
     border-radius: 0px 0px 38px 0px;
     box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
     float: left;
+}
 
+#customer-nav a {
+    width: 32%;
+    text-align: center;
+    color: white;
+    margin-top: 18px;
 }
 
 #customer-header {
