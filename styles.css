@@ -323,7 +323,8 @@ input[type=tel] {
     float: left;
 }
 
-#customer-nav a {
+#customer-nav a,
+#store-nav a {
     width: 32%;
     text-align: center;
     color: white;
@@ -560,4 +561,30 @@ body {
 
 .send-msg a {
     color: orange;
+}
+
+#store-nav {
+    margin: 0;
+    width: 400px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 0px 0px 38px 0px;
+    box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+}
+
+.store-list {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stores {
+    margin: 16px;
+
+}
+
+.like {
+    color: orange;
+    
 }
