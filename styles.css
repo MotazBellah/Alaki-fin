@@ -449,3 +449,18 @@ body {
     color: #999;
     border-bottom: 10px solid orange;
 }
+
+.customer-links {
+    text-align: right;
+    position: fixed;
+    bottom:35px;
+	right: 20px;
+
+}
+
+.customer-links button {
+    background-color: orange;
+    border-radius: 25px;
+    border-color: none;
+    color: white;
+}
