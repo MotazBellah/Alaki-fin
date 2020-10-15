@@ -376,3 +376,59 @@ input[type=tel] {
     margin-right: 200px;
 
 }
+
+.product {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    background-color: white;
+    margin-top: 50px;
+    padding: 15px;
+    position: relative;
+}
+
+body {
+    background-color: #DCDCDC
+}
+
+.product  h4, p, a, .product-message {
+    text-align: right;
+}
+
+.product {
+    text-align: right
+}
+
+.product a {
+    color: black;
+}
+
+.product-photo {
+    height: 105%;
+    width: 180px;
+    background-color: gray;
+    border-radius: 20px;
+    position: absolute;
+    top: -17%;
+    left: -3%;
+    box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+
+}
+
+.icons {
+    text-align: right;
+}
+
+.icons a {
+    margin-left: 20px;
+    color: black;
+}
+
+.product-message a {
+    color: orange;
+}
+
+.product-message input[type=text] {
+    width: 300px;
+}
