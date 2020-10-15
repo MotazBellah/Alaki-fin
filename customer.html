@@ -85,12 +85,59 @@
                     ألاقي؟
                   </button>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">ألاقي عندك؟</a>
+                    <a class="dropdown-item" data-toggle="modal" data-target="#customerModal">ألاقي عندك؟</a>
                     <a class="dropdown-item" href="#">ألاقي فين؟</a>
                   </div>
                 </div>
             </div>
         </section>
+
+        <div class="modal" id="customerModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">ألاقي عندك ؟</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body model-customer">
+                  <div class="container">
+                      <form enctype="multipart/form-data" method="post">
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="أسم الحاجه ابه ؟" required><br>
+                            <select id="inputState" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>...</option>
+                            </select><br>
+                          </div>
+                          <div class="col">
+                              <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                              </select><br>
+                              <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                              </select><br>
+                          </div>
+                        </div>
+                        <textarea class="form-control" rows="5" id="comment" placeholder="أي تفاصيل زياده"></textarea><br>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                            <label class="custom-file-label" for="validatedCustomFile">عندك صوره</label>
+                        </div><br>
+                        <input class="btn-style mt-1" type="submit" value="يلا بينا">
+                      </form>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
 
         <footer class="customer-footer">
         </footer>
