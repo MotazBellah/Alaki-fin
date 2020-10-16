@@ -41,6 +41,11 @@ li a {
   text-decoration: none;
 }
 
+.full {
+    width: 85%;
+    margin: 0 auto;
+}
+
 .header-content {
     width: 70%;
     margin: 0 auto;
@@ -48,6 +53,10 @@ li a {
     padding: 10px;
     margin-top: 10px;
 
+}
+
+.header-content p {
+    text-align: center
 }
 
 .you {
@@ -586,5 +595,5 @@ body {
 
 .like {
     color: orange;
-    
+
 }
