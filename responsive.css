@@ -1,6 +1,56 @@
+@media only screen and (max-width: 830px) {
+  body {
+    background-color: green;
+  }
+
+  #customer-nav {
+      width: 100%;
+      height: 50px;
+      background-color: orange;
+      box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+      border-radius: 0px;
+      margin-bottom: 16px;
+  }
+
+  .customer-right {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+
+  }
+
+  .shadow {
+      position: absolute;
+      right: 20%;
+      top: 55px;
+
+  }
+
+  .btn-style-group {
+      width: 250px;
+  }
+
+  .product {
+    margin-top: 80px;
+  }
+
+
+
+
+}
+
+
 @media only screen and (max-width: 768px) {
   body {
     background-color: lightblue;
+  }
+
+  .shadow {
+      position: absolute;
+      right: 16%;
+      top: 55px;
+
   }
 
  .header-content,
@@ -12,9 +62,172 @@
     width: 90%;
   }
 
+  .product {
+    width: 90%;
+    padding: 0;
+    padding-bottom: 5px;
+    padding-right: 5px;
+  }
+
+  .product-detail {
+    width: calc(100% - 140px);
+    float: right;
+    padding: 2px;
+  }
+
+  .product-message input[type=text] {
+      width: 50%;
+  }
+
+
+  .product-photo {
+      height: 140px;
+      width: 130px;
+      background-color: gray;
+      border-radius: 10px;
+      position: relative;
+      display: inline-block;
+      float: left;
+      box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+  }
+
 }
 
 @media only screen and (max-width: 660px) {
+
+    body {
+      background-color: lightgreen;
+    }
+
+    .product {
+      width: 98%;
+      padding: 0;
+      padding-bottom: 5px;
+      padding-right: 5px;
+    }
+
+    .product-detail {
+      width: calc(100% - 140px);
+      float: right;
+      padding: 2px;
+    }
+
+    .product-message input[type=text] {
+        width: 49%;
+    }
+
+
+    .product-photo {
+        height: 140px;
+        width: 130px;
+        background-color: gray;
+        border-radius: 10px;
+        position: relative;
+        display: inline-block;
+        float: left;
+        box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    }
+
+
+
+
+    .shadow {
+        position: static;
+        width: 90%;
+        margin-left: 1.4em;
+    }
+
+
+    .home-mobile {
+        width: 100%;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .home-mobile img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .text p, .text h3 {
+        text-align: center;
+    }
+
+    .slide2 {
+        width: 100%;
+        height: 100%;
+        background-color: #DCDCDC;
+        text-align: center;
+        padding: 16px;
+        margin-bottom: 30px;
+    }
+
+    .slide2 img {
+        width: 270px;
+        height: 300px;
+        margin-bottom: 16px;
+    }
+
+    .slide2 button {
+        margin-bottom: 16px;
+    }
+
+    .mobile-links .btn {
+        width: 95%;
+        display: block;
+        border-radius: 40px;
+        margin: 0 auto;
+        height: 50px;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .back-color {
+        background-color: orange;
+    }
+
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    .carousel,
+    .item,
+    .active {
+        height: 100%;
+    }
+
+    .carousel {
+        height: 100vh;
+        width: 100%;
+        overflow:hidden;
+    }
+
+    .carousel .carousel-inner {
+        height:100%;
+    }
+
+    .back-img {
+        display:block;
+        object-fit: contain;
+    }
+
+    .nav-mobile {
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        color: white;
+        text-align: left;
+        position: relative;
+    }
+
+    .nav-mobile a {
+        color: white;
+        position: absolute;
+        top: 11px;
+        left: 10px;
+    }
 
   .full {
     display: none;
