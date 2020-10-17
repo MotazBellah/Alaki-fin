@@ -35,6 +35,10 @@
     margin-top: 80px;
   }
 
+  .customer-wrapper {
+      margin-top: 2.5rem;
+  }
+
 
 
 
@@ -45,6 +49,7 @@
   body {
     background-color: lightblue;
   }
+
 
   .shadow {
       position: absolute;
@@ -98,6 +103,8 @@
     body {
       background-color: lightgreen;
     }
+
+
 
     .product {
       width: 98%;
@@ -236,5 +243,29 @@
   .mobile-only {
       display: block;
   }
+
+}
+
+
+@media only screen and (max-width: 440px) {
+    body {
+        background-color: pink;
+    }
+
+    .customer-photo {
+        height: 150px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: gray;
+        border-radius: 20px;
+        position: static;
+        box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+        margin-bottom: 16px;
+    }
+
+    .product-details {
+        padding: 10px;
+    }
+
 
 }
