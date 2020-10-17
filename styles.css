@@ -612,10 +612,31 @@ body {
 }
 
 
-
-
-
-
 .mobile-only {
     display: none;
+}
+
+
+.user-info {
+    width: 90%;
+    height: 100vh;
+    background-color: orange;
+}
+
+.col-sm-4, .col-sm-8 {
+    padding: 0px;
+}
+
+.ex-orders {
+    padding: 1em;
+}
+.last-order {
+    width: 85%;
+    height: 200px;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
 }
