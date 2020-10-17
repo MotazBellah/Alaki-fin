@@ -159,6 +159,12 @@ li a {
     background: linear-gradient(to right, red , #8B0000);
 }
 
+.welcome {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
 .middle-info {
     padding: 16px;
     text-align: center;
@@ -303,6 +309,10 @@ section {
 .form-login {
     text-align: right;
     color: grey;
+}
+
+.separator {
+    display: none;
 }
 
 input[type=text],

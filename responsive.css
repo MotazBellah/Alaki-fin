@@ -40,8 +40,6 @@
   }
 
 
-
-
 }
 
 
@@ -98,10 +96,38 @@
 
 }
 
+@media only screen and (max-width: 510px) {
+    .login-form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%;
+        background-color: pink;
+    }
+}
+
+
 @media only screen and (max-width: 660px) {
 
     body {
       background-color: lightgreen;
+    }
+
+    .login-form {
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+        width: 90%;
+        height: 90%;
+        background-color: lightgreen;
+    }
+
+    .welcome {
+        text-align: center;
+        margin-top: 10px;
     }
 
 
@@ -246,6 +272,49 @@
 
 }
 
+@media only screen and (max-width: 582px) {
+    .login-form {
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%;
+        background-color: pink;
+    }
+
+    .line {
+        display: none;
+    }
+
+
+    .form-login {
+        text-align: center;
+    }
+
+
+    .welcome {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+    .form-login input[type=text],
+    .form-login input[type=tel],
+    .form-login input[type=submit],
+    .create-account input[type=submit]  {
+        width: 90%;
+    }
+
+    .right button {
+        width: 90%;
+    }
+
+    .separator {
+        display: block;
+        width: 90%;
+    }
+}
 
 @media only screen and (max-width: 440px) {
     body {

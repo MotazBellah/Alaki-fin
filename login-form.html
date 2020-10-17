@@ -8,6 +8,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="responsive.css">
         <title>ألاقي فين ؟</title>
     </head>
     <body id="login">
@@ -16,16 +17,16 @@
                 <div class="login-logo">
                     <img src="images/logo.png" alt="">
                 </div>
-                <p><strong>أهلا بيك</strong></p>
+                <p class="welcome"><strong>أهلا بيك</strong></p>
                 <div class="container">
-                    <form>
+                    <form class="create-account">
                       <div class="row">
-                        <div class="col">
+                        <div class="col-sm left">
                           <input type="text" class="form-control" placeholder="First name" required><br>
                           <input type="text" class="form-control" placeholder="First name" required><br>
                           <input type="text" class="form-control" placeholder="First name" required><br>
                         </div>
-                        <div class="col">
+                        <div class="col-sm right">
                             <select id="inputState" class="form-control">
                               <option selected>Choose...</option>
                               <option>...</option>
