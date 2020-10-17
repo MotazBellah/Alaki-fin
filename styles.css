@@ -243,7 +243,6 @@ section {
     position: absolute;
     top: -53%;
     z-index: -2;
-
 }
 
 .footer {
@@ -623,20 +622,55 @@ body {
     background-color: orange;
 }
 
-.col-sm-4, .col-sm-8 {
+.col-sm-3, .col-sm-9 {
     padding: 0px;
 }
 
 .ex-orders {
     padding: 1em;
+    text-align: center;
 }
-.last-order {
-    width: 85%;
-    height: 200px;
 
+.ex-orders h2 {
+    margin-bottom: 1em;
+
+}
+
+.last-order {
+    width: 80%;
+    height: 200px;
+    text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
-    background-color: green;
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 7px;
     box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
+}
+
+.user-info {
+    position: relative;
+    width: 100%;
+}
+
+.total-data {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+
+.user-logo {
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
+    margin: 0 auto;
+}
+
+.user-data {
+    height: auto;
+    width: 70%;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
 }
