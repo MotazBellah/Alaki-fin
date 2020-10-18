@@ -735,3 +735,42 @@ body {
     box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
     padding: 16px;
 }
+
+.store-logo {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 20%;
+}
+
+.customer-msg {
+    padding: 5px;
+}
+.respond {
+    position: relative;
+    top: 20%;
+}
+
+.respond a {
+    color: orange;
+}
+
+.product-conversation {
+    margin-bottom: 10px;
+}
+
+.customer-respond {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.customer-respond input[type=text] {
+    width: 60%;
+    text-align: right;
+    border-radius: 40px;
+}
+
+.customer-respond a {
+    color: orange;
+}
