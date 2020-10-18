@@ -9,7 +9,7 @@
       background-color: orange;
       box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
       border-radius: 0px;
-      margin-bottom: 16px;
+      /* margin-bottom: 16px; */
   }
 
   .customer-right {
@@ -107,6 +107,9 @@
         background-color: pink;
     }
 }
+
+
+
 
 
 @media only screen and (max-width: 660px) {
@@ -333,6 +336,31 @@
 
     .product-details {
         padding: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+        background-color: yellow;
+    }
+
+    .right-user,
+    .left-user {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .user-info {
+        height: 250px;
+        border-radius: 0px 0px 50px 50px;
+        box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    }
+
+    .last-order {
+        width: 92%;
     }
 
 

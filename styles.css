@@ -2,6 +2,7 @@ html, body {
     height: 100%;
 }
 
+
 #header {
     width: 100%;
     background-image: url('images/Background-2.png');
@@ -673,4 +674,24 @@ body {
     text-align: center;
     color: black;
     margin: 0 auto;
+}
+
+.user-data a {
+    color: black;
+}
+
+.left-user {
+    width: 30%;
+    float: left;
+}
+
+.right-user {
+    width: 65%;
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.right-user h2 {
+    margin-bottom: 20px;
 }
