@@ -617,7 +617,8 @@ body {
 }
 
 
-.user-info {
+.user-info,
+.client-info {
     width: 90%;
     height: 100vh;
     background-color: orange;
@@ -648,7 +649,8 @@ body {
     box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
 }
 
-.user-info {
+.user-info,
+.client-info {
     position: relative;
     width: 100%;
 }
@@ -692,6 +694,44 @@ body {
     margin-top: 20px;
 }
 
+.user-network {
+    margin: 0.7em;
+}
+
+.user-network a {
+    margin: 0.2em;
+}
+
 .right-user h2 {
     margin-bottom: 20px;
+}
+
+.change {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: right;
+}
+
+.client-rate {
+    display: inline-block;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.customer-rating {
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
+    padding: 16px;
 }

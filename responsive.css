@@ -359,9 +359,37 @@
         box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
     }
 
-    .last-order {
+    .client-info {
+        height: 270px;
+        border-radius: 0px 0px 50px 50px;
+        box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    }
+
+    .client-follow {
+        width: auto;
+        height: auto;
+        background-color: orange;
+        border-radius: 50px;
+        color: white;
+        display: inline-block;
+        padding: 5px;
+        box-shadow: 10px 10px 5px -12px rgba(1, 1, 1, 1);
+    }
+
+    .client-follow a {
+        color: white;
+    }
+
+    .right-user {
+        margin-top: 70px;
+    }
+
+    .last-order,
+    .customer-rating {
         width: 92%;
     }
+
+
 
 
 }
