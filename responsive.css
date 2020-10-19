@@ -36,7 +36,7 @@
   }
 
   .customer-wrapper {
-      margin-top: 2.5rem;
+      margin-top: 100px;
   }
 
 
@@ -128,11 +128,11 @@
       background-color: lightgreen;
     }
 
+    .customer-wrapper {
+    margin-top: 10px;
+}
+
     .login-form {
-        /* position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); */
         width: 90%;
         height: 90%;
         background-color: lightgreen;
@@ -149,6 +149,7 @@
       padding: 0;
       padding-bottom: 5px;
       padding-right: 5px;
+
     }
 
     .product-detail {
