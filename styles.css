@@ -9,6 +9,8 @@ html, body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: right top;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
 }
 
 .logo {
@@ -20,6 +22,7 @@ html, body {
 
 nav {
     width: 100%;
+
 }
 
 ul {
@@ -27,19 +30,27 @@ ul {
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
+  position: relative;
 }
 
 li {
   float: right;
-  width: 20%;
+  width: 23%;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 12px;
+  padding: 3px;
   text-decoration: none;
+}
+
+.header-login {
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 .full {
@@ -52,7 +63,8 @@ li a {
     margin: 0 auto;
     text-align: center;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-size: 26px;
 
 }
 
@@ -87,12 +99,15 @@ li a {
 .header-info {
     text-align: right;
     padding: 10px;
+    color: white;
 }
 
 .header-info img {
     width: 200px;
     height: 150px;
 }
+
+
 
 /* .wrapper {
 
@@ -188,10 +203,17 @@ li a {
 }
 
 #insta {
-  position: relative;
+  position: absolute;
   z-index: 1;
-  top: -80px;
-  left: 45px;
+  top: 45px;
+  left: 65px;
+
+
+}
+
+.home-section {
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .social-img {
@@ -237,7 +259,7 @@ section {
 }
 
 .circle {
-    background-color: white;
+    background-color: #DCDCDC;
     height: 280%;
     width: 100%;
     border-radius: 50%;
