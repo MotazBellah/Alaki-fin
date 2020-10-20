@@ -376,7 +376,7 @@ input[type=tel] {
 
 #customer-nav {
     margin: 0;
-    width: 400px;
+    width: 45%;
     height: 50px;
     background-color: orange;
     border-radius: 0px 0px 38px 0px;
@@ -437,7 +437,8 @@ input[type=tel] {
 }
 
 .customer-right {
-    width: calc(100% - 400px);
+    /* width: calc(100% - 400px); */
+    width: 55%;
     display: inline-block;
 }
 
@@ -504,7 +505,8 @@ body {
     width: 300px;
 }
 
-.customer-wrapper {
+.customer-wrapper,
+.stores-wrapper {
     min-height: calc(100vh - 64px);
 }
 
@@ -584,6 +586,11 @@ body {
   margin-left: 10px;
 }
 
+.like-store {
+    display: inline-block;
+    margin-left: 16px;
+}
+
 .owner-msg {
     display: inline-block;
 }
@@ -630,7 +637,7 @@ body {
 
 #store-nav {
     margin: 0;
-    width: 400px;
+    width: 45%;
     height: 50px;
     background-color: orange;
     border-radius: 0px 0px 38px 0px;
@@ -638,10 +645,12 @@ body {
 }
 
 .store-list {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .stores {
@@ -710,6 +719,8 @@ body {
     border-radius: 50%;
     box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
     margin: 0 auto;
+    position: relative;
+    z-index: 100
 }
 
 .user-data {
@@ -725,8 +736,9 @@ body {
 }
 
 .left-user {
-    width: 30%;
+    width: 35%;
     float: left;
+    max-width: 323px;
 }
 
 .right-user {
@@ -734,7 +746,10 @@ body {
     float: right;
     text-align: center;
     margin-top: 20px;
+
 }
+
+
 
 .user-network {
     margin: 0.7em;
@@ -776,12 +791,14 @@ body {
     width: 80%;
     height: 100px;
     text-align: center;
+    max-width: 620px;
     margin: 0 auto;
     margin-bottom: 20px;
     background-color: white;
     border-radius: 25px;
     box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
     padding: 16px;
+
 }
 
 .store-logo {
