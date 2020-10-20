@@ -2,6 +2,9 @@ html, body {
     height: 100%;
 }
 
+input[type=text] {
+    text-align: right;
+}
 
 #header {
     width: 100%;
