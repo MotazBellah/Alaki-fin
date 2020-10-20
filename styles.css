@@ -49,7 +49,7 @@ li a {
 .header-login {
     position: absolute;
     left: 7px;
-    background-color: orange;
+    background-color: #FDD31F;
     border-radius: 20px;
     font-size: 14px;
     width: 100px;
@@ -78,7 +78,7 @@ li a {
 
 .you {
     color: white;
-    background-color: orange;
+    background-color: #FDD31F;
 
 }
 
@@ -114,37 +114,11 @@ li a {
 }
 
 
-
-/* .wrapper {
-
-    width: 80%;
-    margin: 0 auto;
-    background-color: orange;
-    display: flex;
-    margin-top: 50px;
-    padding: 10px;
-    position: relative;
-}
-
-.wrapper-info {
-    text-align: right;
-}
-
-.wrapper-img img {
-    width: 140px;
-    height: 180px;
-}
-
-.wrapper-img {
-    position: absolute;
-    right: 3rem;
-    top: -2rem;
-} */
  .upper {
     width: 70%;
     height: 160px;
     margin: 0 auto;
-    background-color: orange;
+    background-color: #FDD31F;
     margin-top: 100px;
     border-radius: 30px 0px 30px 30px;
     box-shadow: 10px 15px 15px -15px rgba(0, 0, 0, 1);
@@ -178,7 +152,7 @@ li a {
     width: 200px;
     color: white;
     background-color: red;
-    background: linear-gradient(to right, red , #8B0000);
+    background: linear-gradient(to left, #5E1A40 , #9A122E);
 }
 
 .welcome {
@@ -303,7 +277,7 @@ section {
     width: 100%;
     height: 100%;
     background-image: url('images/Background.png');
-    background-color: orange;
+    background-color: #FDD31F;
     color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -328,7 +302,7 @@ section {
 .login-logo {
     width: 100%;
     height: 100px;
-    background-color: orange;
+    background-color: #FDD31F;
     border-radius: 30px;
     box-shadow: 10px 15px 15px -18px rgba(0, 0, 0, 1);
     text-align: center;
@@ -378,7 +352,7 @@ input[type=tel] {
     margin: 0;
     width: 45%;
     height: 50px;
-    background-color: orange;
+    background-color: #FDD31F;
     border-radius: 0px 0px 38px 0px;
     box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
     float: left;
@@ -427,7 +401,7 @@ input[type=tel] {
 
 
 #order {
-    background-color: orange;
+    background-color: #FDD31F;
 }
 
 #message {
@@ -498,7 +472,7 @@ body {
 }
 
 .product-message a {
-    color: orange;
+    color: #FDD31F;
 }
 
 .product-message input[type=text] {
@@ -514,7 +488,7 @@ body {
     width: 100%;
     padding-top: 50px;
     color: #999;
-    border-bottom: 10px solid orange;
+    border-bottom: 10px solid #FDD31F;
 }
 
 .customer-links {
@@ -526,7 +500,7 @@ body {
 }
 
 .customer-links button {
-    background-color: orange;
+    background-color: #FDD31F;
     border-radius: 25px;
     border-color: none;
     color: white;
@@ -540,7 +514,7 @@ body {
 }
 
 .model-customer {
-    background-color: orange;
+    background-color: #FDD31F;
 }
 
 .order-message>.btn:not(:last-child):not(.dropdown-toggle) {
@@ -632,14 +606,14 @@ body {
 }
 
 .send-msg a {
-    color: orange;
+    color: #FDD31F;
 }
 
 #store-nav {
     margin: 0;
     width: 45%;
     height: 50px;
-    background-color: orange;
+    background-color: #FDD31F;
     border-radius: 0px 0px 38px 0px;
     box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
 }
@@ -659,7 +633,7 @@ body {
 }
 
 .like {
-    color: orange;
+    color: #FDD31F;
 }
 
 
@@ -672,7 +646,7 @@ body {
 .client-info {
     width: 90%;
     height: 100vh;
-    background-color: orange;
+    background-color: #FDD31F;
 }
 
 .col-sm-3, .col-sm-9 {
@@ -818,7 +792,7 @@ body {
 }
 
 .respond a {
-    color: orange;
+    color: #FDD31F;
 }
 
 .product-conversation {
@@ -837,7 +811,7 @@ body {
 }
 
 .customer-respond a {
-    color: orange;
+    color: #FDD31F;
 }
 
 .all-orders {
