@@ -257,7 +257,7 @@ section {
 }
 
 .circle {
-    background-color: #DCDCDC;
+    background-color: #F2F2F2;
     height: 280%;
     width: 100%;
     border-radius: 50%;
@@ -440,7 +440,7 @@ input[type=tel] {
 }
 
 body {
-    background-color: #DCDCDC
+    background-color: #F2F2F2
 }
 
 .product  h4, p, a, .product-message {
