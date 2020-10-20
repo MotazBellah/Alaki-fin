@@ -488,7 +488,8 @@ body {
     min-height: calc(100vh - 64px);
 }
 
-.customer-footer {
+.customer-footer,
+.home-footer {
     width: 100%;
     padding-top: 50px;
     color: #999;
@@ -712,6 +713,7 @@ body {
 .user-data a {
     color: black;
 }
+
 
 .left-user {
     width: 35%;

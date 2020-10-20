@@ -285,7 +285,8 @@
         left: 10px;
     }
 
-  .full {
+  .full,
+  .home-footer {
     display: none;
   }
 
