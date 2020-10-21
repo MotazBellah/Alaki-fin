@@ -328,6 +328,19 @@ section {
     vertical-align: middle;
 }
 
+.login-form-user input[type=text] {
+    border: 0.5px solid lightgrey;
+    background-color: white;
+    padding: 3px 3px;
+
+}
+
+.login-form-user option {
+    text-align: right;
+
+}
+
+
 /* .login-form-user input {
     float: right;
 } */
