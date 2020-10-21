@@ -423,6 +423,10 @@
         background-color: orange;
     }
 
+    .login-form .btn-style {
+        margin-bottom: 10px;
+    }
+
     .line {
         border-left: 2px solid white;
         height: 200px;
@@ -430,4 +434,49 @@
         left: 50%;
         top: 40%;
     }
+}
+
+@media only screen and (max-width: 577px) {
+    .login-form-user {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%x;
+        background-color: inherit;
+        border-radius: 30px;
+        box-shadow: none;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .login-form-user .col-sm-6 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .login-form-user .btn-style {
+        margin-bottom: 10px;
+    }
+
+    .login-form-user .form-inline .form-control {
+        display: inline-block;
+        width: 70%;
+        vertical-align: middle;
+        margin: 0 auto;
+    }
+
+    .login-form-user span {
+        text-align: right;
+        font-size: 30px;
+    }
+
+    .login-logo {
+        background-color: orange;
+    }
+
 }

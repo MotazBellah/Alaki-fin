@@ -9,12 +9,13 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
         <title>ألاقي فين ؟</title>
     </head>
     <body id="login">
         <section>
-            <div class="login-form">
+            <div class="login-form-user">
                 <div class="login-logo shadow-lg">
                     <img src="images/logo.png" alt="">
                 </div>
@@ -22,24 +23,45 @@
                 <div class="container">
                     <form class="create-account">
                       <div class="row">
-                        <div class="col-sm left">
-                          <input type="text" class="form-control" placeholder="First name" required><br>
-                          <input type="text" class="form-control" placeholder="First name" required><br>
-                          <input type="text" class="form-control" placeholder="First name" required><br>
+                        <div class="col-sm-6 left">
+                            <div class="form-inline">
+                                <label for="user" class="mr-sm-2"><span class="fa fa-user fa-lg"></span></label>
+                                <input type="text" id="user" class="form-control mb-2 mr-sm-2" placeholder="أسمك" required>
+                            </div><br>
+                            <div class="form-inline">
+                                 <label for="mail" class="mr-sm-2"><span class="fa fa-envelope-o fa-lg"></span></label>
+                                <input type="text" id="mail" class="form-control mb-2 mr-sm-2" placeholder="الايميل بتاعك" required>
+                            </div><br>
+                            <div class="form-inline">
+                                 <label for="mobile" class="mr-sm-2"><span class="fa fa-mobile fa-lg"></span></label>
+                                <input type="text" id="mobile" class="form-control mb-2 mr-sm-2" placeholder="رقم موبايلك" required>
+                            </div><br>
+
                         </div>
-                        <div class="col-sm right">
-                            <select id="inputState" class="form-control">
-                              <option selected>Choose...</option>
-                              <option>...</option>
-                            </select><br>
-                            <select id="inputState" class="form-control">
-                              <option selected>Choose...</option>
-                              <option>...</option>
-                            </select><br>
-                            <select id="inputState" class="form-control">
-                              <option selected>Choose...</option>
-                              <option>...</option>
-                            </select><br>
+                        <div class="col-sm-6 right">
+                            <div class="form-inline">
+                                 <label for="city" class="mr-sm-2"><span class="fa fa-globe fa-lg"></span></label>
+                                 <select id="city" class="form-control mb-2 mr-sm-2">
+                                   <option selected>ألمدينه</option>
+                                   <option>...</option>
+                                 </select>
+                            </div><br>
+
+                            <div class="form-inline">
+                                 <label for="location" class="mr-sm-2"><span class="fa fa-map-marker fa-lg"></span></label>
+                                 <select id="location" class="form-control mb-2 mr-sm-2">
+                                   <option selected>المنطقه</option>
+                                   <option>...</option>
+                                 </select>
+                            </div><br>
+                            <div class="form-inline">
+                                 <label for="category" class="mr-sm-2"><span class="fa fa-shopping-bag fa-lg"></span></label>
+                                 <select id="category" class="form-control mb-2 mr-sm-2">
+                                   <option selected>الفئات</option>
+                                   <option>...</option>
+                                 </select>
+                            </div><br>
+
                         </div>
                       </div>
                       <input class="btn-style mt-1" type="submit" value="يلا بينا">
