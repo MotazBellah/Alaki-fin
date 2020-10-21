@@ -111,21 +111,6 @@
 
 }
 
-@media only screen and (max-width: 510px) {
-    .login-form {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 90%;
-        height: 90%;
-        background-color: pink;
-    }
-}
-
-
-
-
 
 @media only screen and (max-width: 660px) {
 
@@ -417,7 +402,32 @@
         border-radius: 0px;
     }
 
+}
 
+@media only screen and (max-width: 500px) {
+    .login-form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%;
+        background-color: inherit;
+        border-radius: 0px;
+        box-shadow: none;
+        font-size: 18px;
 
+    }
 
+    .login-logo {
+        background-color: orange;
+    }
+
+    .line {
+        border-left: 2px solid white;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 40%;
+    }
 }
