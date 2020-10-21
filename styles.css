@@ -547,6 +547,7 @@ body {
     position: fixed;
     bottom:35px;
 	right: 20px;
+    z-index: 200;
 
 }
 
