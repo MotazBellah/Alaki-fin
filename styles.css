@@ -340,6 +340,10 @@ section {
 
 }
 
+.modal-body .left p,
+.modal-body .right p {
+    text-align: center;
+}
 
 /* .login-form-user input {
     float: right;

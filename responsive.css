@@ -1,7 +1,4 @@
 @media only screen and (max-width: 830px) {
-  body {
-    background-color: green;
-  }
 
   #customer-nav {
       width: 100%;
@@ -54,10 +51,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  body {
-    background-color: lightblue;
-  }
-
 
   .shadow {
       position: absolute;
@@ -114,10 +107,6 @@
 
 @media only screen and (max-width: 660px) {
 
-    body {
-      background-color: lightgreen;
-    }
-
     .store-container .col {
         padding-left: 0px;
         padding-right: 5px;
@@ -130,7 +119,6 @@
     .login-form {
         width: 90%;
         height: 90%;
-        background-color: lightgreen;
     }
 
     .welcome {
@@ -289,7 +277,6 @@
         transform: translate(-50%, -50%);
         width: 90%;
         height: 90%;
-        background-color: pink;
     }
 
     .line {
@@ -326,9 +313,6 @@
 }
 
 @media only screen and (max-width: 440px) {
-    body {
-        background-color: pink;
-    }
 
     .customer-photo {
         height: 150px;
@@ -349,9 +333,6 @@
 }
 
 @media only screen and (max-width: 575px) {
-    body {
-        background-color: yellow;
-    }
 
     .right-user,
     .left-user {
@@ -381,7 +362,7 @@
         color: white;
         display: inline-block;
         padding: 5px;
-        box-shadow: 10px 10px 5px -12px rgba(1, 1, 1, 1);
+        box-shadow: 10px 10px 12px -13px rgba(1, 1, 1, 1);
     }
 
     .client-follow a {
