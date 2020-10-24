@@ -34,7 +34,7 @@ nav {
 
 }
 
-nav a:hover {
+#header nav a:hover {
   color: white;
   font-size: larger;
   font-weight: bold;
@@ -450,16 +450,18 @@ input[type=tel] {
 #customer-nav {
     margin: 0;
     width: 45%;
-    height: 50px;
+    height: 56px;
+    position: relative;
     background-color: #FDD31F;
     border-radius: 0px 0px 38px 0px;
     box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
     float: left;
 }
 
+
 #customer-nav a,
 #store-nav a {
-    width: 32%;
+    width: 22%;
     text-align: center;
     color: white;
     margin-top: 18px;
@@ -467,13 +469,32 @@ input[type=tel] {
 
 #customer-header {
     width: 100%;
-}
-#customer-nav img {
-    width: 70px;
-    height: 50px;
-    margin-right: 5px;
+    position: relative;
 }
 
+
+
+#customer-nav img,
+#store-nav img {
+    width: 65px;
+    height: 48px;
+    margin-bottom: 7px;
+    position: absolute;
+    right: 5px;
+}
+
+.user-like{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    left: 28%;
+}
+
+/* #customer-nav .fa-bars{
+    position: absolute;
+    left: 0px;
+} */
 
 
 .btn-style-group {
@@ -513,14 +534,16 @@ input[type=tel] {
     /* width: calc(100% - 400px); */
     width: 55%;
     display: inline-block;
+    /* position: relative;
+    left: 10%; */
 }
 
 .shadow {
     border-radius: 20px;
     box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
 
-    margin-left: 2%;
-    margin-top: 10px;
+    margin-left: 17%;
+    margin-top: 20px;
 }
 
 .product {
@@ -713,7 +736,7 @@ body {
 #store-nav {
     margin: 0;
     width: 45%;
-    height: 50px;
+    height: 56px;
     background-color: #FDD31F;
     border-radius: 0px 0px 38px 0px;
     box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
