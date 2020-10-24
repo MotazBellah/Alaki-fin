@@ -29,6 +29,13 @@ nav {
 
 }
 
+nav a:hover {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  line-height:18pt;
+}
+
 ul {
   list-style-type: none;
   margin: 0 auto;
@@ -58,9 +65,20 @@ li a {
     font-size: 14px;
     width: 100px;
     text-align: left;
-
 }
 
+.header-login:hover,
+.header-login:active  {
+    width: auto;
+    padding: 4px;
+    box-shadow: inset -1px -1px 7px 0px rgba(0, 0, 0, 1);
+}
+
+.header-login a:hover,
+.header-login a:active {
+    color: white;
+    font-weight: bold;
+}
 .full {
     width: 85%;
     margin: 0 auto;
@@ -86,14 +104,28 @@ li a {
 
 }
 
+.you:hover,
+.you:active {
+    color: white;
+    box-shadow: inset -1px -1px 7px 0px rgba(0, 0, 0, 1);
+    font-weight: bolder;
+}
+
 .where {
     color: gray;
     background-color: white;
 
 }
 
+.where:hover,
+.where:active {
+    color: gray;
+    box-shadow: inset -1px -1px 7px 0px rgba(0, 0, 0, 1);
+    font-weight: bolder;
+    /* line-height:18pt; */
+}
 .header-content a {
-    width: 200px;
+    width: 265px;
     border-radius: 50px;
     text-decoration: none;
     padding: 10px;
