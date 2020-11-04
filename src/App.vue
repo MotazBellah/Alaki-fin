@@ -31,4 +31,7 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+ @import './assets/styles/styles.css';
+ @import './assets/styles/responsive.css';
 </style>

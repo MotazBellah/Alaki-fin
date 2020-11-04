@@ -1,0 +1,463 @@
+@media only screen and (max-width: 830px) {
+
+  #customer-nav {
+      width: 100%;
+      height: 50px;
+      background-color: #FDD31F;
+      box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+      border-radius: 0px;
+      /* margin-bottom: 16px; */
+  }
+
+  .customer-right {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+
+  }
+
+  .shadow {
+      position: absolute;
+      right: 20%;
+      top: 55px;
+
+  }
+
+  .btn-style-group {
+      width: 250px;
+  }
+
+  .product {
+    margin-top: 80px;
+  }
+
+  .customer-wrapper {
+      margin-top: 100px;
+  }
+
+
+}
+
+@media only screen and (max-width: 781px) {
+    .header-content,
+    .full {
+       width: 100%;
+     }
+
+     .upper {
+       width: 90%;
+     }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .shadow {
+      position: absolute;
+      right: 16%;
+      top: 55px;
+
+  }
+
+ .header-content,
+ .full {
+    width: 100%;
+  }
+
+  .upper {
+    width: 90%;
+  }
+
+  .product {
+    width: 90%;
+    padding: 0;
+    padding-bottom: 5px;
+    padding-right: 5px;
+  }
+
+  .product-detail {
+    width: calc(100% - 140px);
+    float: right;
+    padding: 2px;
+  }
+
+  .product-message input[type=text] {
+      width: 50%;
+  }
+
+
+  .product-photo {
+      height: 140px;
+      width: 130px;
+      background-color: gray;
+      border-radius: 10px;
+      position: relative;
+      display: inline-block;
+      float: left;
+      box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+  }
+
+  .store-list,
+  .store-container {
+      width: 100%;
+  }
+
+}
+
+
+@media only screen and (max-width: 660px) {
+
+    .store-container .col {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+
+    .customer-wrapper {
+        margin-top: 10px;
+    }
+
+    .login-form {
+        width: 90%;
+        height: 90%;
+    }
+
+    .welcome {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+    .product {
+      width: 98%;
+      padding: 0;
+      padding-bottom: 5px;
+      padding-right: 5px;
+
+    }
+
+    .product-detail {
+      width: calc(100% - 140px);
+      float: right;
+      padding: 2px;
+    }
+
+    .product-message input[type=text] {
+        width: 49%;
+    }
+
+
+    .product-photo {
+        height: 140px;
+        width: 130px;
+        background-color: gray;
+        border-radius: 10px;
+        position: relative;
+        display: inline-block;
+        float: left;
+        box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    }
+
+
+
+
+    .shadow {
+        position: static;
+        width: 90%;
+        margin-left: 1.4em;
+    }
+
+
+    .home-mobile {
+        width: 100%;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .home-mobile img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .text p, .text h3 {
+        text-align: center;
+    }
+
+    .slide2 {
+        width: 100%;
+        height: 100%;
+        background-color: #DCDCDC;
+        text-align: center;
+        padding: 16px;
+        margin-bottom: 30px;
+    }
+
+    .slide2 img {
+        width: 270px;
+        height: 300px;
+        margin-bottom: 16px;
+    }
+
+    .slide2 button {
+        margin-bottom: 16px;
+    }
+
+    .mobile-links .btn {
+        width: 95%;
+        display: block;
+        border-radius: 40px;
+        margin: 0 auto;
+        height: 50px;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .back-color {
+        background-color: #FDD31F;
+    }
+
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    .carousel,
+    .item,
+    .active {
+        height: 100%;
+    }
+
+    .carousel {
+        height: 100vh;
+        width: 100%;
+        overflow:hidden;
+    }
+
+    .carousel .carousel-inner {
+        height:100%;
+    }
+
+    .back-img {
+        display:block;
+        object-fit: contain;
+    }
+
+    .nav-mobile {
+        width: 100%;
+        height: 50px;
+        background-color: #FDD31F;
+        color: white;
+        text-align: left;
+        position: relative;
+    }
+
+    .nav-mobile a {
+        color: white;
+        position: absolute;
+        top: 11px;
+        left: 10px;
+    }
+
+  .full,
+  .home-footer {
+    display: none;
+  }
+
+  .mobile-only {
+      display: block;
+  }
+
+}
+
+@media only screen and (max-width: 582px) {
+    .login-form {
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%;
+    }
+
+    .line {
+        display: none;
+    }
+
+
+    .form-login {
+        text-align: center;
+    }
+
+
+    .welcome {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+    .form-login input[type=text],
+    .form-login input[type=tel],
+    .form-login input[type=submit],
+    .create-account input[type=submit]  {
+        width: 90%;
+    }
+
+    .right button {
+        width: 90%;
+    }
+
+    .separator {
+        display: block;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    .customer-photo {
+        height: 150px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: gray;
+        border-radius: 20px;
+        position: static;
+        box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+        margin-bottom: 16px;
+    }
+
+    .product-details {
+        padding: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .right-user,
+    .left-user {
+        width: 100%;
+        float: none;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .user-info {
+        height: 250px;
+        border-radius: 0px 0px 50px 50px;
+        box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    }
+
+    .client-info {
+        height: 270px;
+        border-radius: 0px 0px 50px 50px;
+        box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
+    }
+
+    .client-follow {
+        width: auto;
+        height: auto;
+        background-color: #FDD31F;
+        border-radius: 50px;
+        color: white;
+        display: inline-block;
+        padding: 5px;
+        box-shadow: 10px 10px 12px -13px rgba(1, 1, 1, 1);
+    }
+
+    .client-follow a {
+        color: white;
+    }
+
+    .right-user {
+        margin-top: 70px;
+    }
+
+    .last-order,
+    .customer-rating {
+        width: 92%;
+    }
+
+    #store-nav {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .login-form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%;
+        background-color: inherit;
+        border-radius: 0px;
+        box-shadow: none;
+        font-size: 18px;
+
+    }
+
+    .login-logo {
+        background-color: orange;
+    }
+
+    .login-form .btn-style {
+        margin-bottom: 10px;
+    }
+
+    .line {
+        border-left: 2px solid white;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 40%;
+    }
+}
+
+@media only screen and (max-width: 577px) {
+    .login-form-user {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%x;
+        background-color: inherit;
+        border-radius: 30px;
+        box-shadow: none;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .login-form-user .col-sm-6 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .login-form-user .btn-style {
+        margin-bottom: 10px;
+    }
+
+    .login-form-user .form-inline .form-control {
+        display: inline-block;
+        width: 70%;
+        vertical-align: middle;
+        margin: 0 auto;
+    }
+
+    .login-form-user span {
+        text-align: right;
+        font-size: 30px;
+    }
+
+    .login-logo {
+        background-color: orange;
+    }
+
+}
