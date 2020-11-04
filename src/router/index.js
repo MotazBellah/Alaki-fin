@@ -12,6 +12,8 @@ import Login from "../views/Login.vue"
 import LoginForm from "../views/LoginForm.vue"
 import User from "../views/User.vue"
 import Stores from "../views/Stores.vue"
+import About from "../views/About.vue"
+import Services from "../views/Services.vue"
 
 Vue.use(VueRouter);
 
@@ -20,6 +22,16 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home
+  },
+  {
+    path: "/about",
+    name: "about",
+    component: About
+  },
+  {
+    path: "/service",
+    name: "service",
+    component: Services
   },
   {
     path: "/cats",

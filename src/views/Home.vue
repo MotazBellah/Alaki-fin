@@ -8,25 +8,26 @@
                       <ul>
 
                           <li>
-                              <a href="#">
+                              <router-link to="/service">
                                   <span class="fa fa-university fa-lg"></span>
                                   <span>الخدمات</span>
-                              </a>
+                              </router-link>
                           </li>
                           <li>
-                              <a href="#">
+                              <router-link to="/about">
                                   <span class="fa fa-question fa-lg fa-flip-horizontal"></span>
                                   <span>احنا مين</span>
-                              </a>
+                              </router-link>
                           </li>
                           <li>
-                              <a href="#">
-                                  <span class="fa fa-concierge"></span>
+                              <a href="tel: +201069090037">
                                   <span class="fa fa-phone fa-lg"></span>
                                   <span>تواصل معنا</span>
                               </a>
                           </li>
-                          <li class="header-login"><a href="#">تسجيل الدخول</a></li>
+                          <router-link to="/login">
+                              <li class="header-login"><a href="#">تسجيل الدخول</a></li>
+                          </router-link>
                       </ul>
                   </nav>
 
@@ -119,7 +120,9 @@
 
           <div class="mobile-only">
               <header class="nav-mobile">
-                  <a href="#"><strong>تسجيل الدخول</strong></a>
+                  <router-link to="/login">
+                      <a href="#"><strong>تسجيل الدخول</strong></a>
+                  </router-link>
               </header>
 
               <div>
