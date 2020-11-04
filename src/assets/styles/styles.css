@@ -145,6 +145,8 @@ li a {
     text-align: right;
     padding: 0px 5px;
     color: white;
+    max-width: 1024px;
+    margin: 0 auto;
     /* position: absolute;
     bottom: 0px; */
 }
