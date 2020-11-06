@@ -11,10 +11,12 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import VueStarRating from 'vue-star-rating'
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 
+Vue.component('star-rating', VueStarRating.default)
 // library.add(faCoffee)
 // Vue.component('font-awesome-icon', FontAwesomeIcon)
 
@@ -25,3 +27,5 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount("#app");
+
+// Vue.component('star-rating', VueStarRating.default)
