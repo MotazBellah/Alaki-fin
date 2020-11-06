@@ -5,6 +5,9 @@
               <header id="header">
                   <nav>
                       <img class="logo" src="../assets/images/market.png" alt="">
+                      <router-link to="/user">
+                          <span>USER</span>
+                      </router-link>
                       <ul>
 
                           <li>
