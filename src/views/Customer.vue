@@ -11,10 +11,6 @@
             <img src="../assets/images/icon-1.png" alt="">
         </a>
     </nav>
-    <!-- <router-link to="/service">
-        <span class="fa fa-university fa-lg"></span>
-        <span>الخدمات</span>
-    </router-link> -->
 
         <div class="customer-right">
             <div class="btn-group shadow">
@@ -37,10 +33,13 @@
             :key="index"
             >
 
-            <div class="product-detail">
-                <h4>{{ product.name }}</h4>
-                <p><a class="fa fa-pencil-square-o fa-lg"></a> {{ product.details }}</p>
-            </div>
+            <router-link
+            :to="{ path: '/customer1', query: { id: product.id }}">
+                <div class="product-detail">
+                    <h4>{{ product.name }}</h4>
+                    <p><a class="fa fa-pencil-square-o fa-lg"></a> {{ product.details }}</p>
+                </div>
+            </router-link>
 
             <div class="product-photo">
                 <img :src=product.img alt="">
@@ -81,6 +80,7 @@ export default {
             return {
                 products: [
                     {
+                    'id': '1',
                     'name': 'منتج رقم 1',
                     'details': 'تفاصيل عن المنتج',
                     'noOfViews': 50,
@@ -88,6 +88,7 @@ export default {
                     'img': '',
                     },
                     {
+                    'id': '2',
                     'name': 'منتج رقم 2',
                     'details': 'تفاصيل',
                     'noOfViews': 20,

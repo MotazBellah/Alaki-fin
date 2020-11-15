@@ -61,7 +61,10 @@ const routes = [
 {
   path: "/customer1",
   name: "customer1",
-  component: Customer1
+  component: Customer1,
+  props(route) {
+    return {  id: route.query.id }
+  }
 },
 {
   path: "/customer",
