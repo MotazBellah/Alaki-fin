@@ -56,11 +56,11 @@
                             v-for="(rate, index) in rates"
                             :key="index">
                             <div class="client-rate">
-                                <a><span title="1" class="rate.rating >= 1 : 'fa fa-star checked' ? 'fa fa-star'"></span></a>
-                                <a><span title="2" class="rate.rating >= 2 : 'fa fa-star checked' ? 'fa fa-star'"></span></a>
-                                <a><span title="3" class="rate.rating >= 3 : 'fa fa-star checked' ? 'fa fa-star'"></span></a>
-                                <a><span title="4" class="rate.rating >= 4 : 'fa fa-star checked' ? 'fa fa-star'"></span></a>
-                                <a><span title="5" class="rate.rating >= 5 : 'fa fa-star checked' ? 'fa fa-star'"></span></a>
+                                <a><span title="1" :class="rate.rating >= 1 ? 'fa fa-star checked' : 'fa fa-star'"></span></a>
+                                <a><span title="2" :class="rate.rating >= 2 ? 'fa fa-star checked' : 'fa fa-star'"></span></a>
+                                <a><span title="3" :class="rate.rating >= 3 ? 'fa fa-star checked' : 'fa fa-star'"></span></a>
+                                <a><span title="4" :class="rate.rating >= 4 ? 'fa fa-star checked' : 'fa fa-star'"></span></a>
+                                <a><span title="5" :class="rate.rating >= 5 ? 'fa fa-star checked' : 'fa fa-star'"></span></a>
                             </div>
                             <div class="user-rating flex-container">
                                 <div class="">
