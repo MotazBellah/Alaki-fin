@@ -1,22 +1,20 @@
 <template lang="html">
     <div class="">
         <div class="customer-links">
-            <div class="btn-group dropup">
-              <button type="button" @click='openPop()' class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                ألاقي؟
-              </button>
-            </div>
+              <a class="you" type="button" @click='openPop()'>
+                ألاقي...؟
+            </a>
         </div>
 
         <div v-if="show" class="pop-outer">
         <div class="pop-inner">
             <button class="close" @click='closePop()'>X</button>
             <a  class='you item1' @click="showModal2()">
-                <span><strong>ألاقي عندك؟</strong></span>
+                <span><strong> ألاقي عندك؟ </strong></span>
                 <span class="fa fa-bullhorn fa-lg"></span>
             </a>
             <a  class="where item2">
-                <span><strong>ألاقي فين؟</strong></span>
+                <span><strong> ألاقي فين؟ </strong></span>
                 <span class="fa fa-map-marker fa-lg"></span>
             </a>
         </div>

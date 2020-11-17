@@ -82,17 +82,7 @@
 
             </div>
 
-            <div class="customer-links">
-                <div class="btn-group dropup">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ألاقي؟
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" data-toggle="modal" data-target="#customerModal">ألاقي عندك؟</a>
-                    <a class="dropdown-item" href="#">ألاقي فين؟</a>
-                  </div>
-                </div>
-            </div>
+            <ModelButton></ModelButton>
         </section>
 
   </div>
@@ -100,7 +90,9 @@
 
 
 <script>
+import ModelButton from '../components/ModelButton'
 export default {
+    components: {ModelButton},
     watch: {
       $route: {
           immediate: true,

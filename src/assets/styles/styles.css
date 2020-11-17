@@ -638,13 +638,18 @@ body {
     bottom:50px;
 	right: 20px;
     z-index: 200;
+    width: 90px;
 }
 
-.customer-links button {
+.customer-links a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
     background-color: #FDD31F;
     border-radius: 25px;
     border-color: none;
     color: white;
+    padding: 10px;
 }
 
 .custom-file-upload {
