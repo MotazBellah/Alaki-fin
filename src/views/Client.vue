@@ -5,6 +5,9 @@
                 <a href="#" class="fa fa-bars fa-lg"></a>
                 <a href="#" class="fa fa-user-o fa-lg"></a>
                 <a href="#" class="fa fa-heart-o fa-lg"></a>
+                <a href="#">
+                    <img src="../assets/images/icon-1.png" alt="">
+                </a>
             </nav>
 
         </header>
@@ -146,4 +149,5 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
 </style>

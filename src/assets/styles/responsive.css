@@ -83,6 +83,7 @@
 
   .product-message input[type=text] {
       width: 50%;
+      border-radius: 50px;
   }
 
 
@@ -143,6 +144,7 @@
 
     .product-message input[type=text] {
         width: 49%;
+        border-radius: 50px;
     }
 
 
@@ -340,6 +342,7 @@
         float: none;
         text-align: center;
         max-width: 100%;
+        margin-bottom: 16px;
     }
 
     .user-info {
@@ -357,6 +360,8 @@
     .client-follow {
         width: auto;
         height: auto;
+        margin-left: 7px;
+        margin-top: 5px;
         background-color: #FDD31F;
         border-radius: 50px;
         color: white;
@@ -401,7 +406,7 @@
     }
 
     .login-logo {
-        background-color: orange;
+        background-color: #FDD31F;
     }
 
     .login-form .btn-style {
@@ -457,7 +462,7 @@
     }
 
     .login-logo {
-        background-color: orange;
+        background-color: #FDD31F;
     }
 
 }

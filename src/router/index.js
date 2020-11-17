@@ -1,9 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Cats from "../views/Cats.vue"
-import Dogs from "../views/Dogs.vue"
-import Pets from "../views/Pets.vue"
 import Client from "../views/Client.vue"
 import Customer0 from "../views/Customer0.vue"
 import Customer1 from "../views/Customer1.vue"
@@ -33,21 +30,6 @@ const routes = [
     name: "service",
     component: Services
   },
-  {
-    path: "/cats",
-    name: "cats",
-    component: Cats
-  },
-  {
-    path: "/dogs",
-    name: "dogs",
-    component: Dogs
-  },
-  {
-    path: "/pets",
-    name: "pets",
-    component: Pets
-},
 {
   path: "/client",
   name: "client",

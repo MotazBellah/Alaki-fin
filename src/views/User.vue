@@ -11,6 +11,9 @@
                 <router-link to="/stores">
                     <a href="#" class="fa fa-heart-o fa-lg"></a>
                 </router-link>
+                <a href="#">
+                    <img src="../assets/images/icon-1.png" alt="">
+                </a>
             </nav>
 
         </header>

@@ -5,24 +5,21 @@
               <header id="header">
                   <nav>
                       <img class="logo" src="../assets/images/market.png" alt="">
-                      <router-link to="/user">
-                          <span>USER</span>
-                      </router-link>
                       <ul>
 
-                          <li>
+                          <li class="nav-links">
                               <router-link to="/service">
                                   <span class="fa fa-university fa-lg"></span>
                                   <span>الخدمات</span>
                               </router-link>
                           </li>
-                          <li>
+                          <li class="nav-links">
                               <router-link to="/about">
                                   <span class="fa fa-question fa-lg fa-flip-horizontal"></span>
                                   <span>احنا مين</span>
                               </router-link>
                           </li>
-                          <li>
+                          <li class="nav-links">
                               <a href="tel: +201069090037">
                                   <span class="fa fa-phone fa-lg"></span>
                                   <span>تواصل معنا</span>
@@ -38,11 +35,11 @@
                       <p>عايز حاجه معينه؟</p>
                       <div class="header-links flex-no-wrap">
                           <a class="you" href="#">
-                              <span><strong>ألاقي عندك؟</strong></span>
+                              <span><strong> ألاقي عندك؟ </strong></span>
                               <span class="fa fa-bullhorn fa-lg"></span>
                           </a>
                           <a class="where" href="#">
-                              <span><strong>ألاقي فين؟</strong></span>
+                              <span><strong> ألاقي فين؟ </strong></span>
                               <span class="fa fa-map-marker fa-lg"></span>
                           </a>
                       </div>
@@ -205,8 +202,8 @@
 
     .slide2,
     .home-mobile {
-        top: 50%;
-        transform: translateY(-40%);
+        top: 10%;
+        transform: translateY(-10%);
     }
 </style>
 

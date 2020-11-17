@@ -3,6 +3,10 @@ html, body {
     font-family: 'Tajawal', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 input[type=text] {
     text-align: right;
 }
@@ -34,11 +38,22 @@ nav {
 
 }
 
-#header nav a:hover {
+/* #header nav a:hover {
   color: white;
   font-size: larger;
   font-weight: bold;
   line-height:18pt;
+} */
+
+.nav-links:hover {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  line-height:18pt;
+}
+
+.header-login a:hover {
+    color: white;
 }
 
 ul {
@@ -75,14 +90,13 @@ li a {
 .header-login:hover,
 .header-login:active  {
     width: auto;
-    padding: 4px;
     box-shadow: inset -1px -1px 7px 0px rgba(0, 0, 0, 1);
+    color: white;
 }
 
-.header-login a:hover,
-.header-login a:active {
+li a:hover {
     color: white;
-    font-weight: bold;
+    decoration: none;
 }
 .full {
     width: 100%;
@@ -524,6 +538,7 @@ input[type=tel] {
 
 #order {
     background-color: #FDD31F;
+    height: 35px;
 }
 
 #message {
@@ -601,6 +616,7 @@ body {
 
 .product-message input[type=text] {
     width: 300px;
+    margin-left: 7px;
 }
 
 .customer-wrapper,
@@ -738,6 +754,7 @@ body {
     margin: 0;
     width: 45%;
     height: 56px;
+    position: relative;
     background-color: #FDD31F;
     border-radius: 0px 0px 38px 0px;
     box-shadow: 10px 15px 15px -21px rgba(0, 0, 0, 1);
@@ -931,9 +948,10 @@ body {
 }
 
 .customer-respond input[type=text] {
-    width: 60%;
+    width: 62%;
     text-align: right;
     border-radius: 40px;
+    margin-left: 7px;
 }
 
 .customer-respond a {
@@ -953,6 +971,7 @@ body {
     margin-bottom: 16px;
     text-align: right;
     position: relative;
+    margin: 25px 0px;
 }
 
 .client-order a {
