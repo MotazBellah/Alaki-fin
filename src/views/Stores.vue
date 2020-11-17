@@ -57,6 +57,14 @@
 <script>
 import ModelButton from '../components/ModelButton'
 export default {
+    watch: {
+      $route: {
+          immediate: true,
+          handler(to) {
+              document.title = to.meta.title || 'ألاقي فين';
+          }
+      },
+  },
 
     components: {ModelButton},
     data() {

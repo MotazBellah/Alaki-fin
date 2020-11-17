@@ -163,7 +163,14 @@
 
 <script>
 export default {
-    // import $ from 'jquery'
+    watch: {
+      $route: {
+          immediate: true,
+          handler(to) {
+              document.title = to.meta.title || 'ألاقي فين';
+          }
+      },
+  },
     data() {
             return {
                 show: false,

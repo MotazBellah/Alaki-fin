@@ -18,32 +18,38 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
+    meta: {title: 'ألاقي فين'}
   },
   {
     path: "/about",
     name: "about",
-    component: About
+    component: About,
+    meta: {title: 'ألاقي فين - تعرف علينا'}
   },
   {
     path: "/service",
     name: "service",
-    component: Services
+    component: Services,
+    meta: {title: 'ألاقي فين - الخدمات'}
   },
 {
   path: "/client",
   name: "client",
-  component: Client
+  component: Client,
+  meta: {title: 'ألاقي فين - العميل'}
 },
 {
   path: "/customer-message",
   name: "customer-message",
-  component: Customer0
+  component: Customer0,
+  meta: {title: 'ألاقي فين - العميل'}
 },
 {
   path: "/customer1",
   name: "customer1",
   component: Customer1,
+  meta: {title: 'ألاقي فين - العميل'},
   props(route) {
     return {  id: route.query.id }
   }
@@ -51,27 +57,32 @@ const routes = [
 {
   path: "/customer",
   name: "customer",
-  component: Customer
+  component: Customer,
+  meta: {title: 'ألاقي فين - العميل'}
 },
 {
   path: "/login",
   name: "login",
-  component: Login
+  component: Login,
+  meta: {title: 'ألاقي فين - تسجيل الدخول'}
 },
 {
   path: "/login-form",
   name: "login-form",
-  component: LoginForm
+  component: LoginForm,
+  meta: {title: 'ألاقي فين - تسجيل الدخول'}
 },
 {
   path: "/user",
   name: "user",
-  component: User
+  component: User,
+  meta: {title: 'ألاقي فين - المستخدم'}
 },
 {
   path: "/stores",
   name: "stores",
-  component: Stores
+  component: Stores,
+  meta: {title: 'ألاقي فين - المحلات'}
 },
 
 ];
