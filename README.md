@@ -1,4 +1,4 @@
-# adopt-pets
+# Alaky
 
 ## Project setup
 ```
